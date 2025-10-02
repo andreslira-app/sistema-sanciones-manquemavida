@@ -27,6 +27,8 @@ reglamento = [
     ("fumar", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("fumando", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("alcohol", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
+    ("bebiendo", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
+    ("tomando", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("fumar", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("desobedecer", "Desobedecer órdenes de autoridad", "Amonestación escrita", "Grave"),
     ("hurto", "Hurto de bienes", "Suspensión o expulsión", "Gravísima"),
