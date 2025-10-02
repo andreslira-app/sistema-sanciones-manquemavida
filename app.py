@@ -18,7 +18,7 @@ reglamento = [
     ("copiaando", "Copiar en una evaluación", "Suspensión", "Gravísima"),
     ("agresión", "Agresión física, verbal o psicológica", "Suspensión o expulsión", "Gravísima"),
     ("agrede", "Agresión física, verbal o psicológica", "Suspensión o expulsión", "Gravísima"),
-    ("agredio", "Agresión física, verbal o psicológica", "Suspensión o expulsión", "Gravísima"),
+    ("agredió", "Agresión física, verbal o psicológica", "Suspensión o expulsión", "Gravísima"),
     ("cimarra", "Hacer cimarra (salir de casa y no ir al colegio)", "Suspensión", "Gravísima"),
     ("plagio", "Presentar trabajos plagiados o usando IA para engañar", "Suspensión", "Gravísima"),
     ("insulto", "Insultos, garabatos o amenazas", "Suspensión o expulsión", "Gravísima"),
@@ -26,10 +26,11 @@ reglamento = [
     ("reiteración", "Reiteración de faltas", "Agravante: leve → grave, grave → gravísima", "Variable"),
     ("fumar", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("fumando", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
-    ("Alcohol", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
+    ("alcohol", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("fumar", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("desobedecer", "Desobedecer órdenes de autoridad", "Amonestación escrita", "Grave"),
     ("hurto", "Hurto de bienes", "Suspensión o expulsión", "Gravísima"),
+    ("robo", "robo de bienes", "Suspensión o expulsión", "Gravísima"),
     ("discriminación", "Discriminar a un integrante de la comunidad", "Suspensión o expulsión", "Gravísima"),
 ]
 
