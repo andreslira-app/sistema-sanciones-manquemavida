@@ -1,20 +1,31 @@
 import streamlit as st
-from sentence_transformers import SentenceTransformer, util
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import nltk
+import numpy as np
 
-# Configuración de la página
+# Descargar recursos de NLTK (solo una vez)
+@st.cache_resource
+def download_nltk():
+    try:
+        nltk.data.find('tokenizers/punkt')
+    except LookupError:
+        nltk.download('punkt', quiet=True)
+
+download_nltk()
+
+# Título
 st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="⚖️")
-
-# Título y descripción
 st.title("⚖️ Sistema de Sugerencia de Sanciones")
 st.markdown("""
 Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante 
 y sugiere una sanción proporcional según el **Reglamento Interno del Colegio Manquemávida**.
 """)
 
-# Reglamento estructurado: (falta_descriptiva, sancion, nivel)
+# Reglamento (mismo que antes)
 reglamento = [
     # FALTAS LEVES
-    ("Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial (diálogo correctivo, citación a apoderados)", "Leve"),
+    ("Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("Quedarse fuera de la sala después del timbre", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("Presentarse sin uniforme completo o materiales solicitados", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("No presentar circulares firmadas por el apoderado", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
@@ -32,7 +43,7 @@ reglamento = [
     ("Reiteración de una falta leve (al menos 3 veces)", "Amonestación escrita o advertencia de condicionalidad", "Grave"),
     ("Incumplir carta de compromiso", "Amonestación escrita", "Grave"),
     ("Cimarra interna (esconderse en el colegio)", "Amonestación escrita", "Grave"),
-    ("Conducta irrespetuosa o insolente con profesores, inspectores o compañeros", "Amonestación escrita", "Grave"),
+    ("Conducta irrespetuosa o insolente con profesores o compañeros", "Amonestación escrita", "Grave"),
     ("Presentar trabajo ajeno como propio", "Amonestación escrita", "Grave"),
     ("Fumar en el colegio o con uniforme institucional", "Amonestación escrita", "Grave"),
     ("Desobedecer órdenes de autoridad", "Amonestación escrita", "Grave"),
@@ -46,7 +57,7 @@ reglamento = [
     ("Portar/consumir bebidas energéticas", "Amonestación escrita", "Grave"),
 
     # FALTAS GRAVÍSIMAS
-    ("Reiteración de faltas graves", "Advertencia de condicionalidad o condicionalidad de matrícula", "Gravísima"),
+    ("Reiteración de faltas graves", "Advertencia de condicionalidad, condicionalidad de matrícula o expulsión", "Gravísima"),
     ("Agresión física, verbal, psicológica o sexual", "Suspensión, condicionalidad o expulsión", "Gravísima"),
     ("Insultos, garabatos, amenazas, hostigamiento, acoso", "Suspensión o expulsión", "Gravísima"),
     ("Discriminación por cualquier motivo", "Suspensión o expulsión", "Gravísima"),
@@ -65,40 +76,35 @@ reglamento = [
     ("No entregar una prueba", "Suspensión", "Gravísima"),
 ]
 
-# Separar en listas
 faltas = [item[0] for item in reglamento]
 sanciones = [item[1] for item in reglamento]
 niveles = [item[2] for item in reglamento]
 
-# Cargar modelo de IA (solo una vez)
-@st.cache_resource
-def cargar_modelo():
-    return SentenceTransformer('all-MiniLM-L6-v2')
-
-modelo = cargar_modelo()
-
 # Entrada del usuario
 st.subheader("Describe la falta cometida:")
-falta_usuario = st.text_area("Ejemplo: 'Copié en una prueba y usé IA para hacer una tarea'", height=100)
+falta_usuario = st.text_area("Ejemplo: 'Copió en una prueba y usó IA para hacer una tarea'", height=100)
 
 if st.button("🔍 Sugerir sanción"):
-    if falta_usuario.strip() == "":
+    if not falta_usuario.strip():
         st.warning("Por favor, describe la falta.")
     else:
-        with st.spinner("Analizando la falta..."):
-            # Codificar frases
-            embedding_usuario = modelo.encode(falta_usuario, convert_to_tensor=True)
-            embeddings_faltas = modelo.encode(faltas, convert_to_tensor=True)
-            
-            # Calcular similitud
-            similitudes = util.cos_sim(embedding_usuario, embeddings_faltas)[0]
-            idx_mejor = similitudes.argmax().item()
-            
+        with st.spinner("Analizando la falta según el reglamento..."):
+            # Combinar la falta del usuario con las faltas del reglamento
+            textos = [falta_usuario] + faltas
+
+            # Vectorizar con TF-IDF
+            vectorizer = TfidfVectorizer(stop_words='spanish')
+            tfidf_matrix = vectorizer.fit_transform(textos)
+
+            # Calcular similitud coseno entre la falta del usuario y cada falta del reglamento
+            similitudes = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:]).flatten()
+            idx_mejor = np.argmax(similitudes)
+
             falta_detectada = faltas[idx_mejor]
             sancion_sugerida = sanciones[idx_mejor]
             nivel = niveles[idx_mejor]
 
-        # Mostrar resultado con colores
+        # Mostrar resultado
         st.success(f"✅ **Falta más parecida detectada**: {falta_detectada}")
         
         if nivel == "Leve":
@@ -107,18 +113,14 @@ if st.button("🔍 Sugerir sanción"):
         elif nivel == "Grave":
             st.warning(f"🔸 **Nivel**: {nivel}")
             st.warning(f"⚖️ **Sanción sugerida**: {sancion_sugerida}")
-        else:  # Gravísima
+        else:
             st.error(f"🔴 **Nivel**: {nivel}")
             st.error(f"⚖️ **Sanción sugerida**: {sancion_sugerida}")
 
-        # Principio de proporcionalidad
         st.markdown("""
         ---
-        ℹ️ **Nota**: Esta sugerencia se basa en el **principio de proporcionalidad** del reglamento, 
-        que considera la idoneidad, necesariedad y equilibrio entre la falta y la medida. 
-        Siempre debe aplicarse en conjunto con el análisis de **atenuantes y agravantes** (Art. 297-298).
+        ℹ️ **Nota**: Esta sugerencia se basa en el **principio de proporcionalidad** del reglamento. 
+        Siempre debe aplicarse en conjunto con el análisis de **atenuantes y agravantes**.
         """)
 
-# Pie de página
-st.markdown("---")
 st.caption("Sistema basado en el Reglamento Interno del Colegio Manquemávida. Uso exclusivo para apoyo formativo.")
