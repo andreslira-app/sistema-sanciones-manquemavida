@@ -1,41 +1,55 @@
 import streamlit as st
-import difflib
 
-# Configuración de la página
+# Configuración
 st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="⚖️")
-
-# Título
 st.title("⚖️ Sistema de Sugerencia de Sanciones")
-st.markdown("""
-Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante 
-y sugiere una sanción proporcional según el **Reglamento Interno del Colegio Manquemávida**.
-""")
+st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante y sugiere una sanción proporcional según el **Reglamento Interno del Colegio Manquemávida**.")
 
-# Reglamento estructurado: (descripción, sanción sugerida, nivel)
+# Reglamento: lista de (palabra clave, falta, sanción, nivel)
 reglamento = [
-    # FALTAS LEVES (Art. 282)
-    ("Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Quedarse fuera de la sala después del timbre", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Presentarse sin uniforme completo o materiales solicitados", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("No presentar circulares firmadas por el apoderado", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("No cumplir con deberes, tareas o compromisos", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("No trabajar en clases", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Deambular por el establecimiento sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Uso inadecuado de vocabulario (groserías, insolencias)", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("No justificar inasistencia", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Despreocupación en aseo o presentación personal", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Comercializar o vender productos en el colegio", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("No portar agenda escolar o materiales requeridos", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Recurrir a excusas para no enfrentar responsabilidades", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    # FALTAS LEVES
+    ("atraso", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("uniforme", "Presentarse sin uniforme completo o materiales solicitados", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("tarea", "No cumplir con deberes, tareas o compromisos", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("celular", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
+    ("copiar", "Copiar en una evaluación", "Suspensión", "Gravísima"),
+    ("agresión", "Agresión física, verbal o psicológica", "Suspensión o expulsión", "Gravísima"),
+    ("cimarra", "Hacer cimarra (salir de casa y no ir al colegio)", "Suspensión", "Gravísima"),
+    ("plagio", "Presentar trabajos plagiados o usando IA para engañar", "Suspensión", "Gravísima"),
+    ("insulto", "Insultos, garabatos o amenazas", "Suspensión o expulsión", "Gravísima"),
+    ("daño", "Dañar infraestructura o materiales", "Amonestación escrita o suspensión", "Grave"),
+    ("reiteración", "Reiteración de faltas", "Agravante: leve → grave, grave → gravísima", "Variable"),
+    ("fumar", "Fumar en el colegio o con uniforme", "Amonestación escrita", "Grave"),
+    ("desobedecer", "Desobedecer órdenes de autoridad", "Amonestación escrita", "Grave"),
+    ("hurto", "Hurto de bienes", "Suspensión o expulsión", "Gravísima"),
+    ("discriminación", "Discriminar a un integrante de la comunidad", "Suspensión o expulsión", "Gravísima"),
+]
 
-    # FALTAS GRAVES (Art. 287)
-    ("Reiteración de una falta leve (al menos 3 veces)", "Amonestación escrita o advertencia de condicionalidad", "Grave"),
-    ("Incumplir carta de compromiso", "Amonestación escrita", "Grave"),
-    ("Cimarra interna (esconderse en el colegio)", "Amonestación escrita", "Grave"),
-    ("Conducta irrespetuosa o insolente con profesores o compañeros", "Amonestación escrita", "Grave"),
-    ("Presentar trabajo ajeno como propio", "Amonestación escrita", "Grave"),
-    ("Fumar en el colegio o con uniforme institucional", "Amonestación escrita", "Grave"),
-    ("Desobedecer órdenes de autoridad", "Amonestación escrita", "Grave"),
-    ("Dañar infraestructura o materiales", "Amonestación escrita", "Grave"),
-    ("Provocar peleas o desórdenes", "Amonestación escrita", "Grave"),
-    ("Usar celular
+# Entrada del usuario
+st.subheader("Describe la falta cometida:")
+falta_usuario = st.text_input("Ejemplo: 'Copió en una prueba y usó IA para hacer una tarea'")
+
+if st.button("🔍 Sugerir sanción"):
+    if not falta_usuario.strip():
+        st.warning("Por favor, describe la falta.")
+    else:
+        falta_usuario_lower = falta_usuario.lower()
+        coincidencias = []
+
+        for palabra, desc, sancion, nivel in reglamento:
+            if palabra in falta_usuario_lower:
+                coincidencias.append((desc, sancion, nivel))
+
+        if coincidencias:
+            st.success("✅ **Faltas detectadas:**")
+            for desc, sancion, nivel in coincidencias:
+                if nivel == "Leve":
+                    st.info(f"🔹 **{desc}** → **{sancion}** (Nivel: {nivel})")
+                elif nivel == "Grave":
+                    st.warning(f"🔸 **{desc}** → **{sancion}** (Nivel: {nivel})")
+                else:
+                    st.error(f"🔴 **{desc}** → **{sancion}** (Nivel: {nivel})")
+        else:
+            st.info("ℹ️ No se encontraron coincidencias claras. Se sugiere revisar el reglamento manualmente o usar palabras como: *copiar, atraso, celular, agresión, cimarra, plagio*, etc.")
+
+st.caption("Sistema basado en el Reglamento Interno del Colegio Manquemávida. Uso exclusivo para apoyo formativo.")
