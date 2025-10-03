@@ -20,6 +20,8 @@ reglamento = [
     ("trabajar", "No trabajar en clases", "Art. 282. Numeral 6: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("deambula", "Deambular por el establecimiento sin justificación", "Art. 282. Numeral 7: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("deambular", "Deambular por el establecimiento sin justificación", "Art. 282. Numeral 7: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("garabatos", "Uso inadecuado del vocabulario trivial (groserías e insolencias). ", "Art. 282. Numeral 8: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("insolente", "Uso inadecuado del vocabulario trivial (groserías e insolencias). ", "Art. 282. Numeral 8: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("celular", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
     ("copiar", "Copiar en una evaluación", "Suspensión", "Gravísima"),
     ("copiaando", "Copiar en una evaluación", "Suspensión", "Gravísima"),
