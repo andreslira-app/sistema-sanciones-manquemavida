@@ -8,9 +8,11 @@ st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida 
 # Reglamento: lista de (palabra clave, falta, sanción, nivel)
 reglamento = [
     # FALTAS LEVES
-    ("atraso", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("atrasado", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    ("Retraso", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("atraso", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("Atraso", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("atrasado", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("Atrasado", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("se queda", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("uniforme", "Presentarse sin uniforme completo o materiales solicitados", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("tarea", "No cumplir con deberes, tareas o compromisos", "Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("celular", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
