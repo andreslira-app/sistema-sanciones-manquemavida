@@ -26,6 +26,8 @@ reglamento = [
     ("excusa", "Recurrir a excusas para no enfrentar sus responsabilidades y desafíos", "Art. 282. Numeral 13: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("celular", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
     ("telefono", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
+    ("no entra", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
+     ("no ingres", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
     ("copi", "Copiar en una evaluación", "Suspensión", "Gravísima"),
     ("agre", "Agresión física, verbal o psicológica", "Suspensión o expulsión", "Gravísima"),
     ("cimarra", "Hacer cimarra (salir de casa y no ir al colegio)", "Suspensión", "Gravísima"),
