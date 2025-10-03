@@ -32,6 +32,7 @@ reglamento = [
     ("presentación personal", "Despreocupación, manifiesta en el aseo, en la presentación personal o en otros elementos de trabajo. ", "Art. 282. Numeral 10: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("vender", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("vendiendo", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("materiales", "No portar la agenda escolar institucional o cuaderno de comunicaciones, cuadernos, libros o materiales requeridos para las clases. ", "Art. 282. Numeral 12: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("celular", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
     ("copiar", "Copiar en una evaluación", "Suspensión", "Gravísima"),
     ("copiaando", "Copiar en una evaluación", "Suspensión", "Gravísima"),
@@ -57,7 +58,7 @@ reglamento = [
 
 # Entrada del usuario
 st.subheader("Describe la falta cometida:")
-falta_usuario = st.text_input("Ejemplo: 'Alumno copia en una prueba y usa IA para hacer una tarea'")
+falta_usuario = st.text_input("Ejemplo: usa minúsculas'alumno copia en una prueba y usa IA para hacer una tarea'")
 
 if st.button("🔍 Sugerir sanción"):
     if not falta_usuario.strip():
