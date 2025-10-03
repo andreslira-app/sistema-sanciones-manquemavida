@@ -3,7 +3,7 @@ import streamlit as st
 # Configuración
 st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="⚖️")
 st.title("⚖️ Colegio Manquemávida Sistema de Sugerencia de Sanciones")
-st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante y sugiere una sanción proporcional según el **Reglamento Interno del Colegio Manquemávida**.")
+st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante y sugiere una sanción proporcional a partir de IA basada en el **Reglamento Interno del Colegio Manquemávida**.")
 
 # Reglamento: lista de (palabra clave, falta, sanción, nivel)
 reglamento = [
@@ -55,7 +55,7 @@ reglamento = [
 
 # Entrada del usuario
 st.subheader("Describe la falta cometida:")
-falta_usuario = st.text_input("Ejemplo: 'Copió en una prueba y usó IA para hacer una tarea'")
+falta_usuario = st.text_input("Ejemplo: 'Alumno copia en una prueba y usa IA para hacer una tarea'")
 
 if st.button("🔍 Sugerir sanción"):
     if not falta_usuario.strip():
