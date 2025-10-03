@@ -18,7 +18,7 @@ reglamento = [
     ("garabat", "Uso inadecuado del vocabulario trivial (groserías e insolencias). ", "Art. 282. Numeral 8: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("insolen", "Uso inadecuado del vocabulario trivial (groserías e insolencias). ", "Art. 282. Numeral 8: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("inasistenc", "No justificar oportunamente por parte del apoderado su inasistencia a clases u otras actividades programadas por el Colegio. . ", "Art. 282. Numeral 9: Medidas de apoyo pedagógico o psicosocial", "Leve"),
-     ("justific", "No justificar oportunamente por parte del apoderado su inasistencia a clases u otras actividades programadas por el Colegio. . ", "Art. 282. Numeral 9: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("justific", "No justificar oportunamente por parte del apoderado su inasistencia a clases u otras actividades programadas por el Colegio. . ", "Art. 282. Numeral 9: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("aseo personal", "Despreocupación, manifiesta en el aseo, en la presentación personal o en otros elementos de trabajo. ", "Art. 282. Numeral 10: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("presentación personal", "Despreocupación, manifiesta en el aseo, en la presentación personal o en otros elementos de trabajo. ", "Art. 282. Numeral 10: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("vend", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
