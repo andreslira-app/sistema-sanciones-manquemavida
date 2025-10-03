@@ -30,6 +30,8 @@ reglamento = [
     ("justifica inasistencia", "No justificar oportunamente por parte del apoderado su inasistencia a clases u otras actividades programadas por el Colegio. . ", "Art. 282. Numeral 9: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("aseo personal", "Despreocupación, manifiesta en el aseo, en la presentación personal o en otros elementos de trabajo. ", "Art. 282. Numeral 10: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("presentación personal", "Despreocupación, manifiesta en el aseo, en la presentación personal o en otros elementos de trabajo. ", "Art. 282. Numeral 10: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("vender", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("vendiendo", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("celular", "Usar celular sin autorización", "Amonestación escrita", "Grave"),
     ("copiar", "Copiar en una evaluación", "Suspensión", "Gravísima"),
     ("copiaando", "Copiar en una evaluación", "Suspensión", "Gravísima"),
