@@ -32,7 +32,7 @@ reglamento = [
     ("insolente", "Mostrar una conducta irrespetuosa o insolente con algún Profesor, Inspector, otro funcionario o compañero.", "Art. 287 Numeral 4: Amonestación escrita", "Grave"),
     ("engañ", "Tratar de engañar al Profesor mostrando algún trabajo o prueba ajena como propia. ", "Art. 287 Numeral 5: Amonestación escrita", "Grave"),
     ("fuma", "Fumar en el colegio o con uniforme", "Art. 287 Numeral 6: Amonestación escrita", "Grave"),
-    ("odedec", "Desobedecer a instrucciones u órdenes dadas por el Profesor, Inspector, Director u otra autoridad del Colegio. ", "Art. 287 Numeral 7: Amonestación escrita", "Grave"),
+    ("desodedec", "Desobedecer a instrucciones u órdenes dadas por el Profesor, Inspector, Director u otra autoridad del Colegio. ", "Art. 287 Numeral 7: Amonestación escrita", "Grave"),
     ("ensuci", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("ray", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("dañ", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
