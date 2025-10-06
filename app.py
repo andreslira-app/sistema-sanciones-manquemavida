@@ -41,7 +41,7 @@ reglamento = [
     ("celular", "Usar el celular en todo espacio interno del colegio. ", "Art. 287 Numeral 12: Amonestación escrita", "Grave"),
     ("indebida", "Usar indebidamente fondos o recursos del Colegio o de su curso.. ", "Art. 287 Numeral 13: Amonestación escrita", "Grave"),
     ("amoros", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
-    ("beso", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
+    ("bes", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
 
 
     
