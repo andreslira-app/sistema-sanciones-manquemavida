@@ -42,9 +42,11 @@ reglamento = [
     ("indebida", "Usar indebidamente fondos o recursos del Colegio o de su curso.. ", "Art. 287 Numeral 13: Amonestación escrita", "Grave"),
     ("amoros", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
     ("bes", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
-
-
-    
+    ("clima", "Alterar o interrumpir la clase.", "Art. 287 Numeral 15: Amonestación escrita", "Grave"),
+    ("interrump", "Alterar o interrumpir la clase.", "Art. 287 Numeral 16: Amonestación escrita", "Grave"),
+    ("engañ", "Engañar o mentir.", "Art. 287 Numeral 17: Amonestación escrita", "Grave"),
+    ("ment", "Engañar o mentir.", "Art. 287 Numeral 17: Amonestación escrita", "Grave"),
+    ("mient", "Engañar o mentir.", "Art. 287 Numeral 17: Amonestación escrita", "Grave"),
     ("agre", "Toda agresión física, verbal o sicológica, o de connotación sexual que vulnere a algún miembro de la comunidad educativa. ", "Art. 292 Numeral 2: Suspensión o expulsión", "Gravísima"),
     ("insult", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("garabat", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
