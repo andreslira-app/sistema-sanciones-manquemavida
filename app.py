@@ -65,7 +65,6 @@ reglamento = [
     ("alcohol", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("beb", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("toma", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
-    ("desobed", "Desobedecer órdenes de autoridad", "Amonestación escrita", "Grave"),
     ("hurt", "Hurto de bienes", "Suspensión o expulsión", "Gravísima"),
     ("rob", "robo de bienes", "Suspensión o expulsión", "Gravísima"),
     ("discrimin", "Discriminar a un integrante de la comunidad", "Suspensión o expulsión", "Gravísima"),
