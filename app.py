@@ -36,9 +36,15 @@ reglamento = [
     ("ensuci", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("ray", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("dañ", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
-    ("pelea", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
+    ("pelea", "Provocar desórdenes, peleas entre compañeros o con otros niños estando en representación del Colegio. ", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
     ("dispositivo", "Utilizar dispositivos electrónicos al interior de la sala de clases sin autorización del docente y/o funcionario a cargo.", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
     ("celular", "Usar el celular en todo espacio interno del colegio. ", "Art. 287 Numeral 12: Amonestación escrita", "Grave"),
+    ("indebida", "Usar indebidamente fondos o recursos del Colegio o de su curso.. ", "Art. 287 Numeral 13: Amonestación escrita", "Grave"),
+    ("amoros", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
+    ("beso", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
+
+
+    
     ("agre", "Toda agresión física, verbal o sicológica, o de connotación sexual que vulnere a algún miembro de la comunidad educativa. ", "Art. 292 Numeral 2: Suspensión o expulsión", "Gravísima"),
     ("insult", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("garabat", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
@@ -52,7 +58,15 @@ reglamento = [
     ("acos", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
     ("difam", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
     ("burl", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 287 Numeral 9: Suspensión o expulsión", "Gravísima"),
 
+
+
+
+
+
+
+    
     ("copi", "Copiar en una evaluación", "Suspensión", "Gravísima"),
     
 
