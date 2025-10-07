@@ -108,8 +108,9 @@ reglamento = [
     ("falsific", "Falsificar la firma del apoderado, del Inspector, Director, Profesor u otro funcionario con el objeto de obtener algún beneficio. ", "Art. 292 Numeral 23: Suspensión o expulsión", "Gravísima"), 
     ("retira", "Retirarse del Colegio sin autorización de la Dirección o Inspectoría. ", "Art. 292 Numeral 24: Suspensión o expulsión", "Gravísima"), 
     ("autoriz", "Retirarse del Colegio sin autorización de la Dirección o Inspectoría. ", "Art. 292 Numeral 24: Suspensión o expulsión", "Gravísima"), 
-    
-
+    ("adulter", "Presentar documentación externa adulterada o falsificada con el objeto de engañar al profesor o a un funcionario del Colegio.  ", "Art. 292 Numeral 25: Suspensión o expulsión", "Gravísima"), 
+    ("falsific", "Presentar documentación externa adulterada o falsificada con el objeto de engañar al profesor o a un funcionario del Colegio.  ", "Art. 292 Numeral 25: Suspensión o expulsión", "Gravísima"), 
+    ("no entrega", "No entregar una prueba al término del proceso de evaluación. ", "Art. 292 Numeral 26: Suspensión o expulsión", "Gravísima"), 
 
 
 
