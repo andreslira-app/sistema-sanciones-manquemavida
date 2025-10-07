@@ -86,21 +86,28 @@ reglamento = [
     ("arma", "Portar algún tipo de arma", "Art. 292 Numeral 13: Suspensión o expulsión", "Gravísima"),
     ("corta", "Portar instrumentos, utensilios u objetos cortantes o punzantes que no hayan sido solicitados como material de trabajo en una asignatura. ", "Art. 292 Numeral 14: Suspensión o expulsión", "Gravísima"),    
     ("punza", "Portar instrumentos, utensilios u objetos cortantes o punzantes que no hayan sido solicitados como material de trabajo en una asignatura. ", "Art. 292 Numeral 14: Suspensión o expulsión", "Gravísima"),    
-    ("alcohol", "Presentarse al Colegio con signos claros de haber ingerido alcohol o alguna droga. ", "Art. 292 Numeral 15: Suspensión o expulsión", "Gravísima"),    
+    ("alcoh", "Presentarse al Colegio con signos claros de haber ingerido alcohol o alguna droga. ", "Art. 292 Numeral 15: Suspensión o expulsión", "Gravísima"),    
     ("droga", "Presentarse al Colegio con signos claros de haber ingerido alcohol o alguna droga. ", "Art. 292 Numeral 15: Suspensión o expulsión", "Gravísima"),    
-    ("alcohol", "Presentarse en representación del colegio, vistiendo el uniforme institucional o algún distintivo asociado a este, con signos claros de haber ingerido alcohol o alguna droga.  ", "Art. 292 Numeral 16: Suspensión o expulsión", "Gravísima"), 
+    ("alcoh", "Presentarse en representación del colegio, vistiendo el uniforme institucional o algún distintivo asociado a este, con signos claros de haber ingerido alcohol o alguna droga.  ", "Art. 292 Numeral 16: Suspensión o expulsión", "Gravísima"), 
     ("droga", "Presentarse en representación del colegio, vistiendo el uniforme institucional o algún distintivo asociado a este, con signos claros de haber ingerido alcohol o alguna droga.  ", "Art. 292 Numeral 16: Suspensión o expulsión", "Gravísima"), 
     ("difam", "Difamar o calumniar a cualquier miembro de la Unidad Educativa. ", "Art. 292 Numeral 17: Suspensión o expulsión", "Gravísima"), 
     ("calumni", "Difamar o calumniar a cualquier miembro de la Unidad Educativa. ", "Art. 292 Numeral 17: Suspensión o expulsión", "Gravísima"), 
     ("descort", "Manifestaciones descorteses, rebeldes o insultantes contra Profesores, Inspectores o cualquier otro miembro de la Unidad Educativa. ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
     ("rebelde", "Manifestaciones descorteses, rebeldes o insultantes contra Profesores, Inspectores o cualquier otro miembro de la Unidad Educativa. ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
     ("insult", "Manifestaciones descorteses, rebeldes o insultantes contra Profesores, Inspectores o cualquier otro miembro de la Unidad Educativa. ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("exhib", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("transmit", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("difund", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("film", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("grab", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("difund", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+    ("exhib", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 19: Suspensión o expulsión", "Gravísima"), 
+    ("transmit", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 19: Suspensión o expulsión", "Gravísima"), 
+    ("difund", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 19: Suspensión o expulsión", "Gravísima"), 
+    ("film", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 20: Suspensión o expulsión", "Gravísima"), 
+    ("grab", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 20: Suspensión o expulsión", "Gravísima"), 
+    ("difund", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 20: Suspensión o expulsión", "Gravísima"), 
+    ("alcoh", "Portar, vender, comprar, distribuir o consumir bebidas alcohólicas, drogas o sustancias ilícitas, o encontrarse bajo sus efectos, ya sea al interior del establecimiento educacional, fuera de este o en actividades organizadas, coordinadas, patrocinadas o supervisadas por éste. ", "Art. 292 Numeral 21: Suspensión o expulsión", "Gravísima"), 
+    ("droga", "Portar, vender, comprar, distribuir o consumir bebidas alcohólicas, drogas o sustancias ilícitas, o encontrarse bajo sus efectos, ya sea al interior del establecimiento educacional, fuera de este o en actividades organizadas, coordinadas, patrocinadas o supervisadas por éste. ", "Art. 292 Numeral 21: Suspensión o expulsión", "Gravísima"), 
+    ("sustancia", "Portar, vender, comprar, distribuir o consumir bebidas alcohólicas, drogas o sustancias ilícitas, o encontrarse bajo sus efectos, ya sea al interior del establecimiento educacional, fuera de este o en actividades organizadas, coordinadas, patrocinadas o supervisadas por éste. ", "Art. 292 Numeral 21: Suspensión o expulsión", "Gravísima"), 
+
+
+
+
     
 ]
 
