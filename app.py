@@ -2,6 +2,8 @@ import streamlit as st
 
 # Configuración
 st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="⚖️")
+# Mostrar el logo del colegio
+st.image("https://www.manquemavida.cl/wp-content/uploads/2023/05/logo-colegio.png", width=200)
 st.title("⚖️ Colegio Manquemávida Sistema de Sugerencia de Sanciones")
 st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante y sugiere una sanción proporcional a partir de IA basada en el **Reglamento Interno del Colegio Manquemávida**.")
 
