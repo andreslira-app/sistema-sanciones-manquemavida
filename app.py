@@ -85,6 +85,17 @@ reglamento = [
     ("arma", "Portar algún tipo de arma", "Art. 292 Numeral 13: Suspensión o expulsión", "Gravísima"),
     ("corta", "Portar instrumentos, utensilios u objetos cortantes o punzantes que no hayan sido solicitados como material de trabajo en una asignatura. ", "Art. 292 Numeral 14: Suspensión o expulsión", "Gravísima"),    
     ("punza", "Portar instrumentos, utensilios u objetos cortantes o punzantes que no hayan sido solicitados como material de trabajo en una asignatura. ", "Art. 292 Numeral 14: Suspensión o expulsión", "Gravísima"),    
+    ("alcohol", "Presentarse al Colegio con signos claros de haber ingerido alcohol o alguna droga. ", "Art. 292 Numeral 15: Suspensión o expulsión", "Gravísima"),    
+    ("droga", "Presentarse al Colegio con signos claros de haber ingerido alcohol o alguna droga. ", "Art. 292 Numeral 15: Suspensión o expulsión", "Gravísima"),    
+    ("alcohol", "Presentarse en representación del colegio, vistiendo el uniforme institucional o algún distintivo asociado a este, con signos claros de haber ingerido alcohol o alguna droga.  ", "Art. 292 Numeral 16: Suspensión o expulsión", "Gravísima"), 
+    ("droga", "Presentarse en representación del colegio, vistiendo el uniforme institucional o algún distintivo asociado a este, con signos claros de haber ingerido alcohol o alguna droga.  ", "Art. 292 Numeral 16: Suspensión o expulsión", "Gravísima"), 
+    ("difam", "Difamar o calumniar a cualquier miembro de la Unidad Educativa. ", "Art. 292 Numeral 17: Suspensión o expulsión", "Gravísima"), 
+    ("calumni", "Difamar o calumniar a cualquier miembro de la Unidad Educativa. ", "Art. 292 Numeral 17: Suspensión o expulsión", "Gravísima"), 
+    ("exhib", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+    ("transmit", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+    ("difund", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+    ("maltrat", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+
     
 ]
 
