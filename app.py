@@ -62,7 +62,7 @@ reglamento = [
     ("burl", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
     ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 287 Numeral 9: Suspensión o expulsión", "Gravísima"),
     ("lenguaje", "Utilizar un lenguaje escrito u oral inadecuado al contexto escolar. ). ", "Art. 287 Numeral 19: Suspensión o expulsión", "Gravísima"),
-
+    ("energ", "Portar, comercializar o consumir bebidas energéticas. ", "Art. 287 Numeral 19: Suspensión o expulsión", "Gravísima"),
 
 
 
