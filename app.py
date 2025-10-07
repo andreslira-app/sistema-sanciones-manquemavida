@@ -66,14 +66,9 @@ reglamento = [
     ("amenaz", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("ofen", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     
-   
-
-
-
-
-
-    
-    ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Sustención o expulsión", "Gravísima"),
+  
+  
+    ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Suspención o expulsión", "Gravísima"),
     
 
     
