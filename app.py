@@ -80,6 +80,8 @@ reglamento = [
     ("inteligencia", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
     ("ia", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
     ("IA", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
+    ("destru", "Destruir en forma intencional cualquier bien del Colegio. ", "Art. 292 Numeral 12: Suspensión o expulsión", "Gravísima"),
+    ("arma", "Portar algún tipo de arma", "Art. 292 Numeral 13: Suspensión o expulsión", "Gravísima"),
     
 
     
