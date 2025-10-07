@@ -68,7 +68,7 @@ reglamento = [
     
   
   
-    ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Suspención o expulsión", "Gravísima"),
+    ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Suspensión o expulsión", "Gravísima"),
     
 
     
