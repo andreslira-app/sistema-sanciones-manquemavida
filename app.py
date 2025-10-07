@@ -76,6 +76,10 @@ reglamento = [
     ("mostrando respuesta", "Ser sorprendido diciendo o mostrando las respuestas de una evaluación a un compañero(a)", "Art. 292 Numeral 9: Suspensión o expulsión", "Gravísima"),
     ("muestra respuesta", "Ser sorprendido diciendo o mostrando las respuestas de una evaluación a un compañero(a)", "Art. 292 Numeral 9: Suspensión o expulsión", "Gravísima"),
     ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Suspensión o expulsión", "Gravísima"),
+    ("plagi", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
+    ("inteligencia", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
+    ("ia", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
+    ("IA", "Presentar trabajos plagiados, no inéditos o utilizando inteligencia artificial, con el propósito de engañar.", "Art. 292 Numeral 11: Suspensión o expulsión", "Gravísima"),
     
 
     
