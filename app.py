@@ -36,7 +36,7 @@ reglamento = [
     ("ensuci", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("ray", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("dañ", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
-    ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 292 Numeral 9: Amonestación escrita", "Grave"),
+    ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 287 Numeral 9: Amonestación escrita", "Grave"),
     ("pelea", "Provocar desórdenes, peleas entre compañeros o con otros niños estando en representación del Colegio. ", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
     ("dispositivo", "Utilizar dispositivos electrónicos al interior de la sala de clases sin autorización del docente y/o funcionario a cargo.", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
     ("celular", "Usar el celular en todo espacio interno del colegio. ", "Art. 287 Numeral 12: Amonestación escrita", "Grave"),
@@ -73,7 +73,7 @@ reglamento = [
 
 
     
-    ("copi", "Copiar en una evaluación", "Suspensión", "Gravísima"),
+    ("copi", "Copiar en una evaluación", "Art. 292 Numeral 10: Sustención o expulsión", "Gravísima"),
     
 
     
