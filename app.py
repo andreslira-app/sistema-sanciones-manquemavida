@@ -76,7 +76,7 @@ reglamento = [
     ("plagio", "Presentar trabajos plagiados o usando IA para engañar", "Suspensión", "Gravísima"),
     
     ("daño", "Dañar infraestructura o materiales", "Amonestación escrita o suspensión", "Grave"),
-    ("reiteración", "Reiteración de faltas", "Agravante: leve → grave, grave → gravísima", "Variable"),
+    ("reitera", "Reiteración de faltas", "Agravante: leve → grave, grave → gravísima", "Variable"),
     ("alcohol", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("beb", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
     ("toma", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
