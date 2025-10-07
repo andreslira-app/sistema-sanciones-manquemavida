@@ -10,7 +10,9 @@ st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida 
 reglamento = [
     # FALTAS LEVES
     ("atras", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("tarde", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("se queda", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    ("no entra", "Atrasos en la entrada a clases, entrega de trabajos o pruebas sin justificación", "Art. 282. Numeral 1 y 2 : Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("uniforme", "Presentarse sin uniforme completo o materiales solicitados", "Art. 282. Numeral 3: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("firmado", "No presentar firmadas por el apoderado las circulares o documentos que lo requieran.", "Art. 282. Numeral 4: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("tarea", "No cumplir con deberes, tareas o compromisos", "Art. 282. Numeral 5: Medidas de apoyo pedagógico o psicosocial", "Leve"),
