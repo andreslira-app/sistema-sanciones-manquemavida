@@ -37,7 +37,7 @@ reglamento = [
     ("dañ", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 287 Numeral 9: Amonestación escrita", "Grave"),
     ("pelea", "Provocar desórdenes, peleas entre compañeros o con otros niños estando en representación del Colegio. ", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
-    ("dispositivo", "Utilizar dispositivos electrónicos al interior de la sala de clases sin autorización del docente y/o funcionario a cargo.", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
+    ("dispositivo", "Utilizar dispositivos electrónicos al interior de la sala de clases sin autorización del docente y/o funcionario a cargo.", "Art. 287 Numeral 11: Amonestación escrita", "Grave"),
     ("celular", "Usar el celular en todo espacio interno del colegio. ", "Art. 287 Numeral 12: Amonestación escrita", "Grave"),
     ("indebida", "Usar indebidamente fondos o recursos del Colegio o de su curso.. ", "Art. 287 Numeral 13: Amonestación escrita", "Grave"),
     ("amoros", "Manifestaciones de relaciones amorosas dentro del establecimiento realizando acciones tales como: abrazos, besos y otras que contravengan las normas disciplinarias que deben observarse al interior del Colegio. ", "Art. 287 Numeral 14: Amonestación escrita", "Grave"),
@@ -47,13 +47,7 @@ reglamento = [
     ("engañ", "Engañar o mentir.", "Art. 287 Numeral 17: Amonestación escrita", "Grave"),
     ("ment", "Engañar o mentir.", "Art. 287 Numeral 17: Amonestación escrita", "Grave"),
     ("mient", "Engañar o mentir.", "Art. 287 Numeral 17: Amonestación escrita", "Grave"),
-    ("burl", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4: Amonestación escrita", "Grave"),
-    ("amedrent", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4: Amonestación escrita", "Grave"),
-    ("chantaj", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4:  Amonestación escrita", "Grave"),
-    ("intimid", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4:  Amonestación escrita", "Grave"),
-    ("hostig", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4:  Amonestación escrita", "Grave"),
-    ("acos", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4:  Amonestación escrita", "Grave"),
-    ("difam", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4:  Amonestación escrita", "Grave"),
+    ("burl", "Burlarse faltar el respeto a cualquier miembro de la comunidad educativa. ", "Art. 287 Numeral 18: Amonestación escrita", "Grave"),
     ("lenguaje", "Utilizar un lenguaje escrito u oral inadecuado al contexto escolar. ). ", "Art. 287 Numeral 19: Amonestación Escrita", "Grave"),
     ("energ", "Portar, comercializar o consumir bebidas energéticas. ", "Art. 287 Numeral 20: Amonestación Escrita", "Grave"),
   
@@ -72,9 +66,13 @@ reglamento = [
     ("acos", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
     ("difam", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
     ("burl", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),    
-    
-    
-    
+    ("discrimin", "Discriminar a un integrante de la comunidad educativa, ya sea por su condición social, situación económica, religión, pensamiento político o filosófico, ascendencia étnica, nombre, nacionalidad, orientación sexual, discapacidad, aspecto físico o cualquier otra circunstancia. ", "Art. 292 Numeral 5: Suspensión o expulsión", "Gravísima"),    
+    ("hurt", "Hurtar algún bien o valor del Colegio o de algún compañero o funcionario del Colegio.", "Art. 292 Numeral 6: Suspensión o expulsión", "Gravísima"),    
+    ("falta a clases", "Faltar a clases habiendo salido de su casa con destino al Colegio (Hacer Cimarra) ", "Art. 292 Numeral 7: Suspensión o expulsión", "Gravísima"),  
+    ("cimarra", "Faltar a clases habiendo salido de su casa con destino al Colegio (Hacer Cimarra) ", "Art. 292 Numeral 7: Suspensión o expulsión", "Gravísima"),  
+    ("adulter", "Adulterar o falsificar cualquier documento, nota, firma o timbre del establecimiento. ", "Art. 292 Numeral 8: Suspensión o expulsión", "Gravísima"),  
+    ("falsific", "Adulterar o falsificar cualquier documento, nota, firma o timbre del establecimiento. ", "Art. 292 Numeral 8: Suspensión o expulsión", "Gravísima"),  
+    ("sopla", "Ser sorprendido diciendo o mostrando las respuestas de una evaluación a un compañero(a)", "Art. 292 Numeral 9: Suspensión o expulsión", "Gravísima"),
     ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Suspensión o expulsión", "Gravísima"),
     
 
