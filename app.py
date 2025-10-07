@@ -24,8 +24,9 @@ reglamento = [
     ("vend", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("materiales", "No portar la agenda escolar institucional o cuaderno de comunicaciones, cuadernos, libros o materiales requeridos para las clases. ", "Art. 282. Numeral 12: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("excusa", "Recurrir a excusas para no enfrentar sus responsabilidades y desafíos", "Art. 282. Numeral 13: Medidas de apoyo pedagógico o psicosocial", "Leve"),
+    
     # FALTAS GRAVES ARTICULO 287
-   ("no entra", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
+    ("no entra", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
     ("no ingres", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
     ("irrespetuos", "Mostrar una conducta irrespetuosa o insolente con algún Profesor, Inspector, otro funcionario o compañero.", "Art. 287 Numeral 4: Amonestación escrita", "Grave"),
     ("insolente", "Mostrar una conducta irrespetuosa o insolente con algún Profesor, Inspector, otro funcionario o compañero.", "Art. 287 Numeral 4: Amonestación escrita", "Grave"),
@@ -35,6 +36,7 @@ reglamento = [
     ("ensuci", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("ray", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
     ("dañ", "Ensuciar, rayar, causar daños menores en infraestructura, materiales, muebles u otro elemento del Colegio, Profesores o Estudiantes. ", "Art. 287 Numeral 8: Amonestación escrita", "Grave"),
+    ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 292 Numeral 9: Amonestación escrita", "Grave"),
     ("pelea", "Provocar desórdenes, peleas entre compañeros o con otros niños estando en representación del Colegio. ", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
     ("dispositivo", "Utilizar dispositivos electrónicos al interior de la sala de clases sin autorización del docente y/o funcionario a cargo.", "Art. 287 Numeral 10: Amonestación escrita", "Grave"),
     ("celular", "Usar el celular en todo espacio interno del colegio. ", "Art. 287 Numeral 12: Amonestación escrita", "Grave"),
@@ -55,7 +57,7 @@ reglamento = [
     ("difam", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.). ", "Art. 287 Numeral 4:  Amonestación escrita", "Grave"),
     ("lenguaje", "Utilizar un lenguaje escrito u oral inadecuado al contexto escolar. ). ", "Art. 287 Numeral 19: Amonestación Escrita", "Grave"),
     ("energ", "Portar, comercializar o consumir bebidas energéticas. ", "Art. 287 Numeral 20: Amonestación Escrita", "Grave"),
-    
+  
     # FALTAS GRAVISIMAS ARTICULO 292
     ("agre", "Toda agresión física, verbal o sicológica, o de connotación sexual que vulnere a algún miembro de la comunidad educativa. ", "Art. 292 Numeral 2: Suspensión o expulsión", "Gravísima"),
     ("insult", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
@@ -63,7 +65,6 @@ reglamento = [
     ("groser", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("amenaz", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("ofen", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
-    ("daño", "Causar daño material o destrucción de algún bien del establecimiento, del Profesor o de algún compañero. ). ", "Art. 292 Numeral 9: Suspensión o expulsión", "Gravísima"),
     
    
 
