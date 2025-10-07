@@ -24,7 +24,6 @@ reglamento = [
     ("vend", "Comercializar o vender algún producto al interior del establecimiento. ", "Art. 282. Numeral 11: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("materiales", "No portar la agenda escolar institucional o cuaderno de comunicaciones, cuadernos, libros o materiales requeridos para las clases. ", "Art. 282. Numeral 12: Medidas de apoyo pedagógico o psicosocial", "Leve"),
     ("excusa", "Recurrir a excusas para no enfrentar sus responsabilidades y desafíos", "Art. 282. Numeral 13: Medidas de apoyo pedagógico o psicosocial", "Leve"),
-    
     # FALTAS GRAVES ARTICULO 287
     ("no entra", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
     ("no ingres", "No ingresar a clases, ocultándose en algún espacio del colegio. (Cimarra interna) ", "Art. 287 Numeral 3: Amonestación escrita", "Grave"),
@@ -65,24 +64,21 @@ reglamento = [
     ("groser", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("amenaz", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
     ("ofen", "Proferir insultos o garabatos, hacer gestos groseros o amenazantes u ofender reiteradamente a cualquier miembro de la comunidad educativa. ", "Art. 292 Numeral 3: Suspensión o expulsión", "Gravísima"),
+    ("amedrent", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("amenaz", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("chantaj", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("intimid", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("hostig", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),    
+    ("acos", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("difam", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),
+    ("burl", "Amedrentar, amenazar, chantajear, intimidar, hostigar, acosar, difamar o burlarse de un estudiante u otro miembro de la comunidad educativa (por ejemplo, utilizar sobrenombres hirientes, mofarse de características físicas, etc.).  ", "Art. 292 Numeral 4: Suspensión o expulsión", "Gravísima"),    
     
-  
-  
+    
+    
     ("copi", "Ser sorprendido copiando durante una evaluación", "Art. 292 Numeral 10: Suspensión o expulsión", "Gravísima"),
     
 
     
-    ("cimarra", "Hacer cimarra (salir de casa y no ir al colegio)", "Suspensión", "Gravísima"),
-    ("plagio", "Presentar trabajos plagiados o usando IA para engañar", "Suspensión", "Gravísima"),
-    
-    ("daño", "Dañar infraestructura o materiales", "Amonestación escrita o suspensión", "Grave"),
-    ("reitera", "Reiteración de faltas", "Agravante: leve → grave, grave → gravísima", "Variable"),
-    ("alcohol", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
-    ("beb", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
-    ("toma", "Beber en el colegio o con uniforme", "Amonestación escrita", "Grave"),
-    ("hurt", "Hurto de bienes", "Suspensión o expulsión", "Gravísima"),
-    ("rob", "robo de bienes", "Suspensión o expulsión", "Gravísima"),
-    ("discrimin", "Discriminar a un integrante de la comunidad", "Suspensión o expulsión", "Gravísima"),
 ]
 
 # Entrada del usuario
