@@ -95,8 +95,9 @@ reglamento = [
     ("exhib", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
     ("transmit", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
     ("difund", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-    ("maltrat", "Exhibir, transmitir o difundir por medios cibernéticos cualquier conducta de maltrato escolar.  ", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
-
+    ("film", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+    ("grab", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
+    ("difund", "Filmar, grabar y difundir por Internet u otro medio, situaciones que afecten la honra propia de cualquier miembro del Colegio.", "Art. 292 Numeral 18: Suspensión o expulsión", "Gravísima"), 
     
 ]
 
