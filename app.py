@@ -2,6 +2,7 @@ import streamlit as st
 
 # Configuración
 st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="⚖️")
+st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="https://raw.githubusercontent.com/andreslira-app/sistema-sanciones-manquemavida/refs/heads/main/insignia.png")
 # Mostrar el logo del colegio
 st.image("https://raw.githubusercontent.com/andreslira-app/sistema-sanciones-manquemavida/refs/heads/main/insignia.png")
 st.title("⚖️ Colegio Manquemávida Sistema de Sugerencia de Sanciones")
