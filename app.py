@@ -106,8 +106,8 @@ reglamento = [
     ("sustancia", "Portar, vender, comprar, distribuir o consumir bebidas alcohólicas, drogas o sustancias ilícitas, o encontrarse bajo sus efectos, ya sea al interior del establecimiento educacional, fuera de este o en actividades organizadas, coordinadas, patrocinadas o supervisadas por éste. ", "Art. 292 Numeral 21: Suspensión o expulsión", "Gravísima"), 
     ("acos", "Realizar cualquier clase de acoso a algún miembro de la Comunidad Educativa, ya sea personalmente o a través de cualquier medio de comunicación.  ", "Art. 292 Numeral 22: Suspensión o expulsión", "Gravísima"), 
     ("falsific", "Falsificar la firma del apoderado, del Inspector, Director, Profesor u otro funcionario con el objeto de obtener algún beneficio. ", "Art. 292 Numeral 23: Suspensión o expulsión", "Gravísima"), 
-    ("retira", "Retirarse del Colegio sin autorización de la Dirección o Inspectoría. ", "Art. 292 Numeral 23: Suspensión o expulsión", "Gravísima"), 
-    ("autoriz", "Retirarse del Colegio sin autorización de la Dirección o Inspectoría. ", "Art. 292 Numeral 23: Suspensión o expulsión", "Gravísima"), 
+    ("retira", "Retirarse del Colegio sin autorización de la Dirección o Inspectoría. ", "Art. 292 Numeral 24: Suspensión o expulsión", "Gravísima"), 
+    ("autoriz", "Retirarse del Colegio sin autorización de la Dirección o Inspectoría. ", "Art. 292 Numeral 24: Suspensión o expulsión", "Gravísima"), 
     
 
 
