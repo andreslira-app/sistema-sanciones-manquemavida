@@ -2,7 +2,8 @@ import streamlit as st
 # Configuración
 st.set_page_config(page_title="Sugerencia de Sanciones - Colegio Manquemávida", page_icon="https://raw.githubusercontent.com/andreslira-app/sistema-sanciones-manquemavida/refs/heads/main/insignia.png")
 # Mostrar el logo del colegio
-st.title("https://raw.githubusercontent.com/andreslira-app/sistema-sanciones-manquemavida/refs/heads/main/insignia.png Colegio Manquemávida Sistema de Sugerencia de Sanciones")
+st.image("https://raw.githubusercontent.com/andreslira-app/sistema-sanciones-manquemavida/refs/heads/main/insignia.png")
+st.title("⚖️ Colegio Manquemávida Sistema de Sugerencia de Sanciones")
 st.markdown("Este sistema ayuda a identificar la gravedad de una falta cometida por un estudiante y sugiere una sanción proporcional a partir de IA basada en el **Reglamento Interno del Colegio Manquemávida**.")
 
 # Reglamento: lista de (palabra clave, falta, sanción, nivel)
